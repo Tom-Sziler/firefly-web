@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 300;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom:25px;
+  font-family: 'Noto Serif KR', serif !important;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-family: 'Noto Serif KR', serif !important;
+  font-weight: 400;
+  margin: 15px 0 15px 0;
+  line-height: 30px;
+}
+
+
+h3 {
+  font-family: 'Noto Serif KR', serif !important;
+  font-weight: 400;
+  margin: 15px 0 15px 0;
+  line-height: 30px;
+}
+
+h4 {
+  font-family: 'Noto Serif KR', serif !important;
+  font-weight: 400;
+  font-weight: 300;
+  font-size: 1.25em;
+}
+
+p {
+  font-family: "Lato", sans-serif !important;
+  margin: 10px 0;
+}
+
+.button {
+  font-family: "Lato", sans-serif !important;
+  margin: 10px 0;
+  border: 1px solid darkgray;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px #e0e0e0;
+  cursor: pointer;
+  transition: ease-in-out .1s;
+}
+
+.button:hover{
+  transform: scale(1.05);
+}
+
+.button:active{
+  border: 1px solid #b21a99;
+  transform: scale(1.03);
+  transition: ease-in-out .05s;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.page {
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.section {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.gray {
+  background-color: #f9f9f9
+}
+
+.navibar {
+ position: fixed;
+ width: 100%;
+ background-color: white;
+ margin-top: -10px;
+ box-shadow: 0 4px 2px -2px #e0e0e0;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.burgerMenu {
+  display: none;
+  position: fixed;
+  margin-top: 115px;
+  background-color: black;
+  opacity: .85;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.dividers {
+  display: flex;
+  align-items: center;
+}
+
+.navItems:hover {
+  transform: scale(1.1);
+  color: #b21a99;
+  cursor: pointer;
+}
+
+.navItems:active {
+  transform: scale(1.0);
+  color: green;
+  cursor: pointer;
+}
+
+.navigation {
+  height: 50px;
+  margin-top: 80px;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.fflogo {
+  height: 205px;
+  width: 205px;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  text-align: center;
+  height: 60vh;
+  background-image: url('/img/bigsky.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-top: -30px;
+}
+
+
+html {
+  padding: 0px ;
+  height: 100% ;
+}
+
+#intro {
+  font-family: 'Lato' !important;
+  margin-top: 50px;
+  padding: 0px 20px 0px 20px;
+  
+  max-width: 55%;
+  margin: 25px auto;
+}
+
+.description {
+  line-height: 1.7em;
+  margin: 0px auto;
+  margin-top: 25px;
+  max-width: 850px;
+  min-width: 250px;
+  color: #7c7c7c;
+}
+
+.footer {
+  border-top: 1px solid #E0E0E0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  height: 150px;
+  width: 100%;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+}
+
+.ikon:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.ikon:active {
+  transform: scale(1.0);
+  cursor: pointer;
+}
+
+.follow {
+  margin-bottom: -15px;
+}
+
+.burger {
+  display: none;
+}
+
+.wordz {
+  color: white;
+  position: absolute;
+  margin-top: 115px;
+  display: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.overlay {
+  display: none;
+}
+
+overlayLinks {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+overlayLinks:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+overlayLinks:active {
+  transform: scale(1.0);
+}
+
+
+.topSection {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 50%;
+  padding: 30px;
+}
+
+.left {
+  text-align: left;
+}
+
+.svc-title {
+  margin-top: 50px;
+}
+
+.svc-img {
+  height: auto;
+  width: 80%;
+  float: right;
+}
+
+.insuranceLink {
+  padding: 0 0 50px 0 ;
+  color: #b21a99;
+  font-weight: bold;
+}
+
+@media (max-width: 575px) {
+  
+  .fflogo {
+    height: 125px;
+    width: 125px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navibar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .burger {
+    display: block;
+    margin-right: 30px;
+  }
+
+ .hidden {
+   display: none;
+ }
+
+  .App-header {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+ 
+  }
+
+  .bg {
+    height: 30vh;
+    margin-top: -90px;
+  }
+
+  #intro {
+    font-size: 80%;
+  }
+
+  .burgerMenu {
+    display: block;
+
+  }
+
+  .overlay {
+    display: block;
+  }
+
+  .wordz {
+    display: block;
+    position: fixed;
+  }
+}
+
