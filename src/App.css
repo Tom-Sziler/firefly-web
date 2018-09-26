@@ -15,7 +15,7 @@ h1 {
   margin-bottom:25px;
   font-family: 'Noto Serif KR', serif !important;
   font-weight: 400;
-  font-size: 2.5em;
+  font-size: 2.15em;
 }
 
 h2 {
@@ -186,7 +186,7 @@ html {
   margin: 0px auto;
   margin-top: 25px;
   max-width: 850px;
-  min-width: 250px;
+  min-width: 180px;
   color: #7c7c7c;
 }
 
@@ -261,13 +261,11 @@ overlayLinks:active {
   justify-content: center;
 }
 
-.box {
-  width: 50%;
-  padding: 30px;
-}
+
 
 .left {
   text-align: left;
+  padding-left: 25px;
 }
 
 .svc-title {
@@ -276,14 +274,68 @@ overlayLinks:active {
 
 .svc-img {
   height: auto;
-  width: 80%;
-  float: right;
+  width: 100%;
+  float: left;
 }
 
 .insuranceLink {
-  padding: 0 0 50px 0 ;
+  padding: 0 0 30px 0 ;
   color: #b21a99;
   font-weight: bold;
+}
+
+.services {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.services h1 {
+  text-align: left;
+}
+
+.services h2 {
+  margin-top: 20px;
+}
+
+.servicesList {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.servicesUl {
+  -moz-column-count: 3;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 30px;
+  column-count: 3;
+  column-gap: 30px;
+  list-style: none;
+  padding: 36px 0;
+  font-family: "Lato", sans-serif !important;
+}
+
+.modalitiesUl {
+  -moz-column-count: 2;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 30px;
+  column-count: 2;
+  column-gap: 30px;
+  list-style: none;
+  padding: 36px 0;
+  font-family: "Lato", sans-serif !important;
+}
+
+.listItems {
+  padding: 5px;
+}
+
+.box {
+  width: 50%;
+}
+
+.miniText {
+  font-size: .6em;
 }
 
 @media (max-width: 575px) {
@@ -340,6 +392,48 @@ overlayLinks:active {
   .wordz {
     display: block;
     position: fixed;
+  }
+}
+
+@media (max-width: 420px){
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .servicesUl {
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+    column-count: 2;
+    column-gap: 30px;
+    list-style: none;
+    padding: 30px 0;
+    font-size: .7em;
+  }
+  
+  .modalitiesUl {
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+    column-count: 2;
+    column-gap: 30px;
+    list-style: none;
+    padding: 30px 0;
+    font-size: .7em;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .section {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
